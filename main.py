@@ -9,15 +9,15 @@ import re
 # Init FastAPI
 app = FastAPI()
 
-# define input class
+# Define input class
 class Essay(BaseModel):
     text: str
 
-model_path = "./models/model_weighted_training"
+MODEL_PATH = "./models/model_weighted_training"
 
 # Load model
-model = AutoModelForSequenceClassification.from_pretrained(model_path)
-tokenizer = AutoTokenizer.from_pretrained(model_path)
+model = AutoModelForSequenceClassification.from_pretrained(MODEL_PATH)
+tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
 
 def escape_quotes(text: str) -> str:
     return re.sub(r'(")', r'\"', text)

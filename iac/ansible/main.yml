@@ -55,7 +55,7 @@
       ssh_password_enabled: false
       ssh_public_keys:
         - path: /home/quangtran/.ssh/authorized_keys
-          key_data: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC1TrQfyUzmgo78F4Gtca+oDsn+U/ggnFySfy8bK8PSOlshBPOK3tpEp3TzpMt5+pNgHVn+uIl5tkIv3unOruLdQzWeydE6Sbu19VAtAl22sWqdQIkC1eiVlSWJ7TS7W4o7z21ShYmLJ2wwoUfMinxFjmF9A/zw7nSFmvggIRXtatCioRhPha0Vrtw/iC6BwWdRPDGcXdsTqrtZydsTmWa2gKuUPPjB9AuyQqo2oPsPVevF7Lp4oo6XhszFWusM5B9XYn4UxgWnn393fVucffJJDnlH23AA9KsJo/PO2UW8V7FZo03/gIYv1LhiCDWQo2wp6Zz3T4ixWBXePg9IjvXDKrYF3jvd+zqrjLiNHj1fCtoR5gwa2Fqsl70b4IK2MbPnIifxP/ZXBBLdoF/pQhY1WCMlsTa0BFQ5b4YaHDIo6WBD8T+WbvJe0yYBozAeQZQhjZvXXUKV479kWj0JdI+7QfFy7x1XTUWb5oCYIvXPUM/3bk1g7v8APiGLpzsdUglFw1i7fzLGfc31U3trzg1iJb2yl6DrsdhqlQ7AD0HJDpBYshbz0/0iqqBF5JNPuKiKVa8Bp81U+hftw+V8teGnIekLsQ5zVaQgOy2t9FltM0l086rFQT1x8ezlHCtNlrb4eE4u3upH6lmonWyjuamAUIww90niJPngznuJ4gE50w== quangtran@QuangTran"
+          key_data: <ssh_key>
       network_interfaces: myNIC
       image:
         offer: CentOS

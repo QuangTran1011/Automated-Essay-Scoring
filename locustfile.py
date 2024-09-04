@@ -1,6 +1,6 @@
+import json
 from locust import HttpUser, between, task
 from loguru import logger
-import json
 
 
 class ModelUser(HttpUser):
@@ -16,10 +16,7 @@ class ModelUser(HttpUser):
         essay = {
             "text": "This is a test essay used for performance testing with Locust."
         }
-        self.client.post(
-            "/predict",
-            data=json.dumps(essay)
-        )
+        self.client.post("/predict", data=json.dumps(essay))
         # logger.info("Sending GET requests!")
         # self.client.get(
         #     "/simple",

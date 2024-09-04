@@ -22,8 +22,6 @@ pipeline {
                     container('helm') {
                         // Deploy model-serving
                         sh("helm upgrade --install ess ./deployments/ess --namespace model-serving")
-
-
                         // Deploy nginx-ingress
                         sh("helm upgrade --install nginx-ingress ./deployments/nginx-ingress --namespace nginx-system")
                     }
