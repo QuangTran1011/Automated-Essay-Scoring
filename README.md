@@ -79,7 +79,7 @@ terraform apply
 Open cluster in portal azure and connect
 ![Connect to Azure K8s](images/connectazure.png)
 #### 1.4. Switch to this cluster 
-Step 1 : `Install kubectx`
+Step 1 : Install kubectx `brew install kubectx`
 
 Step 2 : `kubectx <cluster_name>`
 
