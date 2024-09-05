@@ -58,7 +58,7 @@ Automated-Essay-Scoring
         └── test_model_correctness.py
 ```
 
-![Diagram](images/flowdiagram.png)
+![Diagram](images/Diagram.png)
 
 ## API Deployment on Azure Kubernetes
 ### 1. Create Azure Kubernetes Service using Terrafrom
